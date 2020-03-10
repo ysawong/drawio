@@ -4,7 +4,7 @@
 Draw.loadPlugin(function(ui)
 {
 	// Adds resource for action
-	mxResources.parse('extractText=Extract Text...');
+	mxResources.parse('');
 
 	// Adds action
 	ui.actions.addAction('extractText', function()
