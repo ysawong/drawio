@@ -2729,7 +2729,7 @@ Graph.prototype.getIndexableText = function()
 			
 			if (label.length > 0)
 			{
-				labels.push(label);
+				labels.push(label+'\n');
 			}
 		}
 	}
