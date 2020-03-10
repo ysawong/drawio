@@ -2729,12 +2729,12 @@ Graph.prototype.getIndexableText = function()
 			
 			if (label.length > 0)
 			{
-				labels.push(label+'\n');
+				labels.push(label);
 			}
 		}
 	}
 	
-	return labels.join(' ');
+	return labels.join('\n');
 };
 
 /**
