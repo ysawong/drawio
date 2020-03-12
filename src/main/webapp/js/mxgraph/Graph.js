@@ -2734,8 +2734,8 @@ Graph.prototype.getIndexableText = function()
 		}
 	}
 	
-	return labels;
-// 	return labels.join('\n');
+
+	return labels.join('\n');
 };
 
 /**
